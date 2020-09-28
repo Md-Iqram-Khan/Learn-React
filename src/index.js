@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import App from './component/app';
+import App from './component/app';
 //import FunctionalComponent from './component/functionalComponent';
 import Profile from './component/profile/index'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Profile/>
+    <App/>
+    {/* <Profile/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
